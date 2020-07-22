@@ -1,0 +1,97 @@
+body {
+    background-color:black;
+    color:black;
+    
+}
+
+main, nav, footer, form  { 
+    text-align: center;
+}
+header {
+    text-align: center;
+    
+}
+nav a:hover {
+  background-color: green;
+}
+main { 
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+        padding:5px;
+        padding-bottom:4px;
+        font-size: 1.8em;
+        color: white;
+        text-decoration: none;
+}
+nav {
+    
+  text-shadow: 2px 2px #FF0000;
+
+}
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}
+h1 {
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Russo One', sans-serif;
+    color: red ;
+    
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #4CAF50;
+}
+#copyright {
+    color: #004E98;
+    font-size: .8em;
+}
+footer {
+    color:red;
+}
+.solid {
+    border-style: solid;
+    
+}
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+h2 {
+    color:red;font-size:15px;
+}
+.hobby {
+    color: yellow;
+}
+.cyber {
+    color :green;
+}
+.p1 {
+    font: 100px;
+}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+figure {
+    color:green;
+}
+hr {
+    width: 75%;
+    height: 1px;
+    border: 0;
+    background-color: red;
+}
