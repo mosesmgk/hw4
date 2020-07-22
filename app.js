@@ -10,6 +10,10 @@ app.get("/", function(req, res){
     res.render("index.html", {"fakerEmail":faker.internet.email(),});
 });
 
+app.get("/index", function(req, res){
+    res.render("index.html", {"fakerEmail":faker.internet.email(),});
+});
+
 app.get("/phishing", function(req, res){
     res.render("phishing.html");
 });
@@ -24,7 +28,7 @@ app.get("/zero", function(req, res){
 
 //starting server 
 //app.listen("8080", "127.0.0.1", function(){
- // console.log("Express server is running...");
+ //console.log("Express server is running...");
 //});
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("Express server is running...");
